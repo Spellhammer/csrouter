@@ -1,0 +1,14 @@
+#!/bin/sh
+# Use the project-local environment without requiring shell activation.
+set -eu
+ROOT=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+PYTHON="$ROOT/vendor/jeffy/.venv/bin/python"
+if [ ! -x "$PYTHON" ]; then
+    echo "Jeffy is not installed. Run ./scripts/setup-jeffy.sh first." >&2
+    exit 1
+fi
+export HF_HOME="${HF_HOME:-$ROOT/vendor/jeffy/cache/huggingface}"
+export TOKENIZERS_PARALLELISM="${TOKENIZERS_PARALLELISM:-false}"
+export JEFFY_ANALYTICS_FILE="${JEFFY_ANALYTICS_FILE:-$ROOT/vendor/jeffy/cache/analytics.jsonl}"
+mkdir -p "$ROOT/vendor/jeffy/cache"
+exec "$PYTHON" "$ROOT/scripts/jeffy_cli.py" "$@"

@@ -1,0 +1,15 @@
+{
+  "review_status": "source_checked_by_agent_needs_product_owner_review",
+  "reviews": [
+    {
+      "text": "Which block displays single-event information?",
+      "canonical_label": "block_editor",
+      "acceptable_labels": ["block_editor", "event_info"],
+      "reason": "Both source articles identify Pie Calendar Event Info as the block for individual event details. The event_info answer explicitly names that block and answers this question correctly. Retain the original test label and report exact-label accuracy separately.",
+      "sources": [
+        "https://docs.piecalendar.com/article/71-block-editor-support",
+        "https://docs.piecalendar.com/article/85-show-event-data-on-single-posts-piecal-info"
+      ]
+    }
+  ]
+}

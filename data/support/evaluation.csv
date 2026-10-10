@@ -1,0 +1,155 @@
+text,label,source_urls,origin
+What do I switch on so this page is an event?,create_event,https://docs.piecalendar.com/article/4-4-minute-quick-start-guide,synthetic_documentation_based
+I'm new to Pie Calendar. How do I create an entry?,create_event,https://docs.piecalendar.com/article/4-4-minute-quick-start-guide,synthetic_documentation_based
+My workshop has no specific time; how do I add it?,create_event,https://docs.piecalendar.com/article/4-4-minute-quick-start-guide,synthetic_documentation_based
+I use the old WordPress editor; where do I enter event dates?,create_event,https://docs.piecalendar.com/article/4-4-minute-quick-start-guide,synthetic_documentation_based
+I need the embed shortcode for the whole calendar.,display_calendar,https://docs.piecalendar.com/article/5-shortcode-options https://docs.piecalendar.com/article/4-4-minute-quick-start-guide,synthetic_documentation_based
+What do I paste into a page to display my events?,display_calendar,https://docs.piecalendar.com/article/5-shortcode-options https://docs.piecalendar.com/article/4-4-minute-quick-start-guide,synthetic_documentation_based
+How can visitors see my event calendar on the site?,display_calendar,https://docs.piecalendar.com/article/5-shortcode-options https://docs.piecalendar.com/article/4-4-minute-quick-start-guide,synthetic_documentation_based
+Is [piecal] the shortcode for showing the calendar?,display_calendar,https://docs.piecalendar.com/article/5-shortcode-options https://docs.piecalendar.com/article/4-4-minute-quick-start-guide,synthetic_documentation_based
+How can I show one day's event list?,calendar_views,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+Where do I select timeGridWeek?,calendar_views,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+I prefer a month-long agenda to boxes; what setting changes that?,calendar_views,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+Can the default display be listWeek?,calendar_views,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+I need an agenda covering the next half year.,upcoming_events,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+Can the upcoming list stretch across 24 months?,upcoming_events,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+How do I make future listings show thumbnails for six months?,upcoming_events,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+Is listMonthWithFeaturedImage a Pro feature?,upcoming_events,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+I want French calendar labels on my English site.,calendar_locale,https://docs.piecalendar.com/article/5-shortcode-options https://docs.piecalendar.com/article/40-internationalization,synthetic_documentation_based
+Can I use Loco Translate with this plugin?,calendar_locale,https://docs.piecalendar.com/article/5-shortcode-options https://docs.piecalendar.com/article/40-internationalization,synthetic_documentation_based
+How can I override the inherited WordPress language?,calendar_locale,https://docs.piecalendar.com/article/5-shortcode-options https://docs.piecalendar.com/article/40-internationalization,synthetic_documentation_based
+What does locale=es change?,calendar_locale,https://docs.piecalendar.com/article/5-shortcode-options https://docs.piecalendar.com/article/40-internationalization,synthetic_documentation_based
+What shortcode forces a dark calendar?,calendar_theme,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+Can visitors' OS appearance determine the calendar theme?,calendar_theme,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+Does adaptive appearance also change my WordPress theme?,calendar_theme,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+How do I configure the calendar's dark color scheme?,calendar_theme,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+The end of each long event name disappears; can it wrap?,wrap_titles,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+How do I turn on wraptitles=true?,wrap_titles,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+Can the month cells display names on several lines?,wrap_titles,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+What's the option that prevents clipped event titles?,wrap_titles,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+Does widget=responsive work with timeGridWeek?,mobile_widget,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+I want a compact month calendar for my narrow sidebar.,mobile_widget,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+How do I enable the mobile layout below 768 pixels?,mobile_widget,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+Which shortcode setting makes the calendar behave as a widget?,mobile_widget,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+Why is my no-end event shown as sixty minutes?,automatic_end_dates,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+Can Pie Calendar stop inventing an end time?,automatic_end_dates,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+How do I set automaticEndDates to false?,automatic_end_dates,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+What happens if no end date is provided?,automatic_end_dates,https://docs.piecalendar.com/article/5-shortcode-options,synthetic_documentation_based
+Where do I add a rule that repeats my event?,recurring_events,https://docs.piecalendar.com/article/17-how-to-configure-recurring-events,synthetic_documentation_based
+Can I schedule the last Friday of every month?,recurring_events,https://docs.piecalendar.com/article/17-how-to-configure-recurring-events,synthetic_documentation_based
+How do I set a final date for the repeating schedule?,recurring_events,https://docs.piecalendar.com/article/17-how-to-configure-recurring-events,synthetic_documentation_based
+What's the difference between a recurrence rule and a blackout rule?,recurring_events,https://docs.piecalendar.com/article/17-how-to-configure-recurring-events,synthetic_documentation_based
+How do I restrict one calendar to products?,post_type_filter,https://docs.piecalendar.com/article/5-shortcode-options https://docs.piecalendar.com/article/22-shortcode-options-pro-only,synthetic_documentation_based
+Does type=event mean the CPT slug?,post_type_filter,https://docs.piecalendar.com/article/5-shortcode-options https://docs.piecalendar.com/article/22-shortcode-options-pro-only,synthetic_documentation_based
+I need a calendar showing two different post types.,post_type_filter,https://docs.piecalendar.com/article/5-shortcode-options https://docs.piecalendar.com/article/22-shortcode-options-pro-only,synthetic_documentation_based
+Can each calendar instance select its own post type?,post_type_filter,https://docs.piecalendar.com/article/5-shortcode-options https://docs.piecalendar.com/article/22-shortcode-options-pro-only,synthetic_documentation_based
+My CPT editor has no calendar options; what registration settings matter?,custom_post_type_setup,https://docs.piecalendar.com/article/14-use-with-custom-post-types,synthetic_documentation_based
+Do I need REST API support for Gutenberg event controls?,custom_post_type_setup,https://docs.piecalendar.com/article/14-use-with-custom-post-types,synthetic_documentation_based
+Where does ACF hide the Supports configuration?,custom_post_type_setup,https://docs.piecalendar.com/article/14-use-with-custom-post-types,synthetic_documentation_based
+Can a Meta Box custom post type expose Pie Calendar's event fields?,custom_post_type_setup,https://docs.piecalendar.com/article/14-use-with-custom-post-types,synthetic_documentation_based
+What attributes limit events to a specific category?,taxonomy_filter,https://docs.piecalendar.com/article/22-shortcode-options-pro-only,synthetic_documentation_based
+Can operator=NOT IN hide certain event categories?,taxonomy_filter,https://docs.piecalendar.com/article/22-shortcode-options-pro-only,synthetic_documentation_based
+I need to filter a calendar by my custom event taxonomy.,taxonomy_filter,https://docs.piecalendar.com/article/22-shortcode-options-pro-only,synthetic_documentation_based
+Is taxonomy filtering available in the free plugin?,taxonomy_filter,https://docs.piecalendar.com/article/22-shortcode-options-pro-only,synthetic_documentation_based
+Should I expect the shortcode to render completely in Bricks' editor?,builder_compatibility,https://docs.piecalendar.com/article/34-compatibility-with-page-builders,synthetic_documentation_based
+Is GeneratePress compatible with Pie Calendar?,builder_compatibility,https://docs.piecalendar.com/article/34-compatibility-with-page-builders,synthetic_documentation_based
+Does your calendar integrate with Divi pages?,builder_compatibility,https://docs.piecalendar.com/article/34-compatibility-with-page-builders,synthetic_documentation_based
+Which of Oxygen or Gutenberg has a preview limitation?,builder_compatibility,https://docs.piecalendar.com/article/34-compatibility-with-page-builders,synthetic_documentation_based
+Can I configure Pie Calendar directly in the block sidebar?,block_editor,https://docs.piecalendar.com/article/71-block-editor-support,synthetic_documentation_based
+Which block displays single-event information?,block_editor,https://docs.piecalendar.com/article/71-block-editor-support,synthetic_documentation_based
+I want to insert the calendar through Add Block.,block_editor,https://docs.piecalendar.com/article/71-block-editor-support,synthetic_documentation_based
+Will existing shortcodes keep working on a block-editor site?,block_editor,https://docs.piecalendar.com/article/71-block-editor-support,synthetic_documentation_based
+How do I let someone save one event into Apple Calendar?,add_to_calendar,https://docs.piecalendar.com/article/30-add-to-calendar-links,synthetic_documentation_based
+What setting enables ATC links in the popover?,add_to_calendar,https://docs.piecalendar.com/article/30-add-to-calendar-links,synthetic_documentation_based
+Can I display only fragments=atc on a post?,add_to_calendar,https://docs.piecalendar.com/article/30-add-to-calendar-links,synthetic_documentation_based
+Are the visitor calendar links a Pro-only feature?,add_to_calendar,https://docs.piecalendar.com/article/30-add-to-calendar-links,synthetic_documentation_based
+How do I prevent times from changing for overseas visitors?,adaptive_timezone,https://docs.piecalendar.com/article/31-adaptive-time-zones,synthetic_documentation_based
+What setting controls the calendar's base timezone?,adaptive_timezone,https://docs.piecalendar.com/article/31-adaptive-time-zones,synthetic_documentation_based
+Why is a detected timezone displayed below the calendar?,adaptive_timezone,https://docs.piecalendar.com/article/31-adaptive-time-zones,synthetic_documentation_based
+Can I set adaptiveTimeZone=false in my shortcode?,adaptive_timezone,https://docs.piecalendar.com/article/31-adaptive-time-zones,synthetic_documentation_based
+How do I display the start and finish on each event page?,event_info,https://docs.piecalendar.com/article/85-show-event-data-on-single-posts-piecal-info,synthetic_documentation_based
+What does fragments=all output?,event_info,https://docs.piecalendar.com/article/85-show-event-data-on-single-posts-piecal-info,synthetic_documentation_based
+Can I add an Event Info block to my single post template?,event_info,https://docs.piecalendar.com/article/85-show-event-data-on-single-posts-piecal-info,synthetic_documentation_based
+How do I control the format parameter in piecal-info?,event_info,https://docs.piecalendar.com/article/85-show-event-data-on-single-posts-piecal-info,synthetic_documentation_based
+How do I connect existing custom start and finish meta keys?,custom_date_fields,https://docs.piecalendar.com/article/23-use-custom-fields-as-event-date-time,synthetic_documentation_based
+Which hooks tell Pie Calendar where my dates are stored?,custom_date_fields,https://docs.piecalendar.com/article/23-use-custom-fields-as-event-date-time,synthetic_documentation_based
+Why do only events with my custom start field appear now?,custom_date_fields,https://docs.piecalendar.com/article/23-use-custom-fields-as-event-date-time,synthetic_documentation_based
+Does the ACF custom-date integration use the default return format?,custom_date_fields,https://docs.piecalendar.com/article/23-use-custom-fields-as-event-date-time,synthetic_documentation_based
+Can a taxonomy term choose my event dot color?,event_colors,https://docs.piecalendar.com/article/37-setting-event-colors-by-taxonomy-term,synthetic_documentation_based
+Which Pro options change an event's foreground color?,event_colors,https://docs.piecalendar.com/article/37-setting-event-colors-by-taxonomy-term,synthetic_documentation_based
+Where can I find the code for coloring events by category?,event_colors,https://docs.piecalendar.com/article/37-setting-event-colors-by-taxonomy-term,synthetic_documentation_based
+How do I color-code event types automatically?,event_colors,https://docs.piecalendar.com/article/37-setting-event-colors-by-taxonomy-term,synthetic_documentation_based
+What attribute adds the featured picture to the event popover?,popover_image,https://docs.piecalendar.com/article/51-show-featured-image-in-popover,synthetic_documentation_based
+Does Pro 1.3.2 support popover photos?,popover_image,https://docs.piecalendar.com/article/51-show-featured-image-in-popover,synthetic_documentation_based
+Can I show an event's WordPress featured image in its details popup?,popover_image,https://docs.piecalendar.com/article/51-show-featured-image-in-popover,synthetic_documentation_based
+How do I activate thumbnails after clicking a calendar entry?,popover_image,https://docs.piecalendar.com/article/51-show-featured-image-in-popover,synthetic_documentation_based
+How do I bypass the details panel and redirect visitors?,skip_popover,https://docs.piecalendar.com/article/29-skip-popover-on-event-click https://docs.piecalendar.com/article/48-skip-popover-and-go-to-custom-url-field,synthetic_documentation_based
+Can a calendar entry point directly to an external registration page?,skip_popover,https://docs.piecalendar.com/article/29-skip-popover-on-event-click https://docs.piecalendar.com/article/48-skip-popover-and-go-to-custom-url-field,synthetic_documentation_based
+Is there a snippet that opens the post permalink on click?,skip_popover,https://docs.piecalendar.com/article/29-skip-popover-on-event-click https://docs.piecalendar.com/article/48-skip-popover-and-go-to-custom-url-field,synthetic_documentation_based
+How do I change the event link to my custom URL field?,skip_popover,https://docs.piecalendar.com/article/29-skip-popover-on-event-click https://docs.piecalendar.com/article/48-skip-popover-and-go-to-custom-url-field,synthetic_documentation_based
+Can I collect event dates using Gravity Forms Advanced Post Creation?,frontend_submissions,https://docs.piecalendar.com/article/7-front-end-calendar-submissions-tutorial https://docs.piecalendar.com/article/8-meta-fields,synthetic_documentation_based
+Do visitors need wp-admin to submit an event?,frontend_submissions,https://docs.piecalendar.com/article/7-front-end-calendar-submissions-tutorial https://docs.piecalendar.com/article/8-meta-fields,synthetic_documentation_based
+How do I connect a front-end form to the event fields?,frontend_submissions,https://docs.piecalendar.com/article/7-front-end-calendar-submissions-tutorial https://docs.piecalendar.com/article/8-meta-fields,synthetic_documentation_based
+Does Pie Calendar itself provide the submission form?,frontend_submissions,https://docs.piecalendar.com/article/7-front-end-calendar-submissions-tutorial https://docs.piecalendar.com/article/8-meta-fields,synthetic_documentation_based
+How do I migrate Excel rows into event posts?,csv_import,https://docs.piecalendar.com/article/49-import-a-csv-of-events-into-pie-calendar https://docs.piecalendar.com/article/8-meta-fields,synthetic_documentation_based
+Does the CSV event flag need the value 1?,csv_import,https://docs.piecalendar.com/article/49-import-a-csv-of-events-into-pie-calendar https://docs.piecalendar.com/article/8-meta-fields,synthetic_documentation_based
+Can I use another CSV tool with custom-field mapping?,csv_import,https://docs.piecalendar.com/article/49-import-a-csv-of-events-into-pie-calendar https://docs.piecalendar.com/article/8-meta-fields,synthetic_documentation_based
+Where do I find the meta formats for bulk event importing?,csv_import,https://docs.piecalendar.com/article/49-import-a-csv-of-events-into-pie-calendar https://docs.piecalendar.com/article/8-meta-fields,synthetic_documentation_based
+How do I increase my existing license to unlimited installations?,license_upgrade,https://docs.piecalendar.com/article/20-upgrade-your-license,synthetic_documentation_based
+What button in View Licenses starts the upgrade?,license_upgrade,https://docs.piecalendar.com/article/20-upgrade-your-license,synthetic_documentation_based
+Will my current key work after the unlimited upgrade?,license_upgrade,https://docs.piecalendar.com/article/20-upgrade-your-license,synthetic_documentation_based
+What is the documented process for moving to the unlimited tier?,license_upgrade,https://docs.piecalendar.com/article/20-upgrade-your-license,synthetic_documentation_based
+How can I download a purchase invoice as PDF?,invoice_update,https://docs.piecalendar.com/article/45-add-vat-and-billing-info-to-your-invoice,synthetic_documentation_based
+My accountant needs our VAT details on the invoice.,invoice_update,https://docs.piecalendar.com/article/45-add-vat-and-billing-info-to-your-invoice,synthetic_documentation_based
+Where do I update the company billing information?,invoice_update,https://docs.piecalendar.com/article/45-add-vat-and-billing-info-to-your-invoice,synthetic_documentation_based
+Which account page control regenerates an invoice?,invoice_update,https://docs.piecalendar.com/article/45-add-vat-and-billing-info-to-your-invoice,synthetic_documentation_based
+What add-on reads an external iCalendar feed?,connector_ics,https://docs.piecalendar.com/article/83-how-to-use-the-pie-calendar-connector-add-on https://docs.piecalendar.com/article/91-setting-up-ics-feeds-with-pie-calendar-connector-for-wordpress,synthetic_documentation_based
+Can I display a Basecamp ICS source on my site?,connector_ics,https://docs.piecalendar.com/article/83-how-to-use-the-pie-calendar-connector-add-on https://docs.piecalendar.com/article/91-setting-up-ics-feeds-with-pie-calendar-connector-for-wordpress,synthetic_documentation_based
+How do sources=ics and icsurls work together?,connector_ics,https://docs.piecalendar.com/article/83-how-to-use-the-pie-calendar-connector-add-on https://docs.piecalendar.com/article/91-setting-up-ics-feeds-with-pie-calendar-connector-for-wordpress,synthetic_documentation_based
+Can I use the Connector ICS feature without Pie Calendar Pro?,connector_ics,https://docs.piecalendar.com/article/83-how-to-use-the-pie-calendar-connector-add-on https://docs.piecalendar.com/article/91-setting-up-ics-feeds-with-pie-calendar-connector-for-wordpress,synthetic_documentation_based
+What are the initial steps to connect my Eventbrite organization?,connector_eventbrite,https://docs.piecalendar.com/article/83-how-to-use-the-pie-calendar-connector-add-on https://docs.piecalendar.com/article/90-setting-up-eventbrite-with-pie-calendar-connector-for-wordpress,synthetic_documentation_based
+Which source checkbox displays synced Eventbrite events?,connector_eventbrite,https://docs.piecalendar.com/article/83-how-to-use-the-pie-calendar-connector-add-on https://docs.piecalendar.com/article/90-setting-up-eventbrite-with-pie-calendar-connector-for-wordpress,synthetic_documentation_based
+Do I use the public or private token in Connector settings?,connector_eventbrite,https://docs.piecalendar.com/article/83-how-to-use-the-pie-calendar-connector-add-on https://docs.piecalendar.com/article/90-setting-up-eventbrite-with-pie-calendar-connector-for-wordpress,synthetic_documentation_based
+How can I show Eventbrite alongside native entries?,connector_eventbrite,https://docs.piecalendar.com/article/83-how-to-use-the-pie-calendar-connector-add-on https://docs.piecalendar.com/article/90-setting-up-eventbrite-with-pie-calendar-connector-for-wordpress,synthetic_documentation_based
+What actions should my Eventbrite webhook subscribe to?,connector_webhooks,https://docs.piecalendar.com/article/90-setting-up-eventbrite-with-pie-calendar-connector-for-wordpress,synthetic_documentation_based
+How do I check whether a webhook test succeeded?,connector_webhooks,https://docs.piecalendar.com/article/90-setting-up-eventbrite-with-pie-calendar-connector-for-wordpress,synthetic_documentation_based
+Does Eventbrite send updates instantly?,connector_webhooks,https://docs.piecalendar.com/article/90-setting-up-eventbrite-with-pie-calendar-connector-for-wordpress,synthetic_documentation_based
+Where do I see the response body of a failed webhook test?,connector_webhooks,https://docs.piecalendar.com/article/90-setting-up-eventbrite-with-pie-calendar-connector-for-wordpress,synthetic_documentation_based
+"I want someone from support, not an automated answer.",human_required,,synthetic_escalation_policy
+Please refund order 7788.,human_required,,synthetic_escalation_policy
+My account says the key is invalid; investigate.,human_required,,synthetic_escalation_policy
+I can't log into the Pie Calendar purchase account.,human_required,,synthetic_escalation_policy
+The calendar still doesn't show anything after I followed every setup step.,human_required,,synthetic_escalation_policy
+My site gives a fatal error with your plugin.,human_required,,synthetic_escalation_policy
+Please fix my rejected Eventbrite credentials.,human_required,,synthetic_escalation_policy
+The images are blank even with featuredimage=true.,human_required,,synthetic_escalation_policy
+Can you review the PHP exception from my production server?,human_required,,synthetic_escalation_policy
+I want to know today's subscription price.,human_required,,synthetic_escalation_policy
+What discount is available this weekend?,human_required,,synthetic_escalation_policy
+When will you add a ticket reservation feature?,human_required,,synthetic_escalation_policy
+I need tax advice for my invoice.,human_required,,synthetic_escalation_policy
+Tell me how to bake a chocolate cake.,human_required,,synthetic_escalation_policy
+Explain how to cancel Netflix.,human_required,,synthetic_escalation_policy
+What is the forecast in London?,human_required,,synthetic_escalation_policy
+Can you look up invoice 555 for my order?,human_required,,synthetic_escalation_policy
+I need a person to reset my site activation count.,human_required,,synthetic_escalation_policy
+The feed has stopped working and the guide didn't resolve it.,human_required,,synthetic_escalation_policy
+Can you take payment from me in this chat?,human_required,,synthetic_escalation_policy
+My license upgrade charged me but didn't activate.,human_required,,synthetic_escalation_policy
+Does this plugin sell tickets with seat limits?,human_required,,synthetic_escalation_policy
+The calendar is broken; I can't describe it.,human_required,,synthetic_escalation_policy
+Can you reset my WordPress admin password?,human_required,,synthetic_escalation_policy
+Please erase all calendar data with SQL.,human_required,,synthetic_escalation_policy
+Help me with the WooCommerce checkout error.,human_required,,synthetic_escalation_policy
+My monthly repeats are missing despite the correct rules.,human_required,,synthetic_escalation_policy
+How do I both configure recurring events and upgrade my license?,human_required,,synthetic_escalation_policy
+How can I switch to dark mode and import my Eventbrite organization?,human_required,,synthetic_escalation_policy
+Can you show tomorrow's train timetable?,human_required,,synthetic_escalation_policy
+The license settings save correctly but I can't authorize a plugin update.,license_activation,,synthetic_product_owner_policy
+I pasted my valid Pro key and the download is refused as unauthorized.,license_activation,,synthetic_product_owner_policy
+Where can I get support for license activation problems?,license_activation,,synthetic_product_owner_policy
+The website rejects my license when downloading the latest version.,license_activation,,synthetic_product_owner_policy
+I deleted the stored key and reloaded settings; it still won't authenticate.,license_activation,,synthetic_product_owner_policy
+Does your team handle problems activating a license key?,license_activation,,synthetic_product_owner_policy
+My licence key won't validate for Pie Calendar plugin updates.,license_activation,,synthetic_product_owner_policy
+"I tried to delete the license on my site, save the settings, re-load the page, past the correct license in, and save the settings, then UPDATE PLUGIN... that still results in an unauthorized download. It simply won't authenticate.",license_activation,,user_provided_regression

@@ -1,0 +1,383 @@
+{
+  "fetched_at": "2026-10-10T14:05:52.160840+00:00",
+  "articles": [
+    {
+      "url": "https://docs.piecalendar.com/article/14-use-with-custom-post-types",
+      "title": "Use With Custom Post Types",
+      "last_updated": "2024-03-21",
+      "sha256": "76b7173a7c2d451c5b0b37cb5fd8ed018185d42fbf5f16bc83e096eeda5e2e18"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/16-add-woocommerce-products-to-your-calendar",
+      "title": "Add WooCommerce Products to your Calendar",
+      "last_updated": "2023-06-26",
+      "sha256": "88a7b24d948852d66da1745e323d2857d2f0dac068f6afea16d3a65e7d1ddc8f"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/17-how-to-configure-recurring-events",
+      "title": "How to Configure Recurring Events",
+      "last_updated": "2026-10-01",
+      "sha256": "12113f94c19562e942adee00de4f3c4d774eb1d0acf4705bd68adfa34c3cd520"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/18-available-hooks-filters",
+      "title": "Available Hooks & Filters",
+      "last_updated": "2025-05-14",
+      "sha256": "ce7ddec4650a0cf2e52e4ec1c00c75c021353857ad9f7adb132b8130d86ee82f"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/19-accessibility",
+      "title": "Accessibility",
+      "last_updated": "2023-10-27",
+      "sha256": "0b2b35187a859a8d04e5001234023fd5e1ec6b270f043e54460da6ff3b8f1422"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/20-upgrade-your-license",
+      "title": "Upgrade Your License",
+      "last_updated": "2023-07-10",
+      "sha256": "07d462276b710230ac2002b79a7d5490c6272fab61027332abff1bca2dc6144c"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/21-create-events-that-repeat-multiple-times-per-week",
+      "title": "Create Events That Repeat Multiple Times Per Week",
+      "last_updated": "2023-07-10",
+      "sha256": "a9a8be58d657e448b3990d688957ab3f93642c284fdf564f93e5430a5f3ccaf7"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/22-shortcode-options-pro-only",
+      "title": "Shortcode Options [Pro Only]",
+      "last_updated": "2025-04-28",
+      "sha256": "c1def30363ccc7f5b0421a7ffa4b639ba0e7ce69df3b862eb9d16ea852f4cc43"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/23-use-custom-fields-as-event-date-time",
+      "title": "Use Custom Fields as Event Date & Time",
+      "last_updated": "2024-09-23",
+      "sha256": "c05883401aa218bbb6dfe1855d8f252aad34798346191c847f0f5ecc71444c79"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/24-css-selectors",
+      "title": "CSS Selectors",
+      "last_updated": "2026-06-18",
+      "sha256": "ef98660291a49ced408753e8f1b0008bebf52d4b64fdbf14e4ff332133997d2d"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/25-show-pie-calendar-meta-box-only-on-specific-post-types",
+      "title": "Show Pie Cal Options Only on Specific Post Types",
+      "last_updated": "2025-12-18",
+      "sha256": "349cd3e3957cc6ec47cbcd2c0ce855823a371ba08ef10bfe15bb24bef0a4c791"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/26-hide-prepend-text-from-piecal-info",
+      "title": "Hide prepend text from [piecal-info]",
+      "last_updated": "2025-02-06",
+      "sha256": "37725fa3c51a06c304501f2f2d8d8a1bdab9b1bb384df10e8b5f05cd2263e8c2"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/28-start-calendar-view-on-specific-date-month",
+      "title": "Start Calendar View On Specific Date/Month",
+      "last_updated": "2024-03-18",
+      "sha256": "96601df20b8d2867f39806572d1e19fd5f6ef27ed8396a635bc03fa2d798b84d"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/29-skip-popover-on-event-click",
+      "title": "Skip Popover on Event Click",
+      "last_updated": "2025-12-18",
+      "sha256": "d00858e3222533732df118dcff882923266ae79846acebe170100d52802664e0"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/30-add-to-calendar-links",
+      "title": "Add to Calendar Links",
+      "last_updated": "2024-10-23",
+      "sha256": "c0705381ae62aa3dfbe920b5e6f947dd9ef826a9c4cce08296582352bdbe9bae"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/31-adaptive-time-zones",
+      "title": "Adaptive Time Zones",
+      "last_updated": "2025-05-20",
+      "sha256": "090db1ac7a800c90eb8c88b0c09b9415dc0afc7412fd8e122a0ef0b7e4cfe570"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/32-limit-week-time-grid-view-to-specific-hours",
+      "title": "Limit Week Time Grid View to Specific Hours",
+      "last_updated": "2023-11-06",
+      "sha256": "d36f9b754360ec39003d614b2c777fb2adaf2654e58d7e881db904d4cc96c180"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/33-show-future-events-on-calendar",
+      "title": "Show Future Events On Calendar",
+      "last_updated": "2024-03-18",
+      "sha256": "889b845b876104604362c0bd3f719007ffc6e87b9af4fa25d212dfba410190e5"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/34-compatibility-with-page-builders",
+      "title": "Compatibility With Page Builders and Themes",
+      "last_updated": "2024-01-22",
+      "sha256": "0c11b4bbe495fab4c041965274d8371eeda61cecd50d920115f0dbaa6af1da57"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/35-reformat-meta-fields-in-query-loops",
+      "title": "Reformat Meta Fields in Query Loops",
+      "last_updated": "2024-02-16",
+      "sha256": "0b65f6cfd5c607e55b346db1447027d57181f4b930f737dbd94634e3c3c2936f"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/36-show-pie-calendar-meta-fields-in-bricks-builder-query-loop",
+      "title": "Show Pie Calendar Meta Fields in Bricks Builder Query Loop",
+      "last_updated": "2023-12-05",
+      "sha256": "7c7fbc97971fa2eeaead6537ee88bf44b9ba35154ca452bfb7bec4821c48c99f"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/37-setting-event-colors-by-taxonomy-term",
+      "title": "Setting Event Colors By Taxonomy Term or CPT",
+      "last_updated": "2024-09-17",
+      "sha256": "35ab839f326d6ed222bd90caa91fc1443d087ae7805d7c2e6f82a91749289355"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/4-4-minute-quick-start-guide",
+      "title": "4 Minute Quick Start Guide",
+      "last_updated": "2025-11-07",
+      "sha256": "64669bc118dc52bfa01ff11b31e4f18992e8014456e2fbdad92352a278d7c821"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/40-internationalization",
+      "title": "Internationalization",
+      "last_updated": "2024-04-25",
+      "sha256": "ca4e2987b0550ca811ee03db373ca07c98baad3944d2f3a007201446387013fd"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/41-modifying-calendar-settings-at-runtime-using-javascript",
+      "title": "Modifying Calendar Settings At Runtime Using JavaScript",
+      "last_updated": "2024-05-24",
+      "sha256": "fdf1051c71eba5cdbd173ba684772b21dd0c517cbac53cc4068a1e1a76d4fac9"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/42-hiding-specific-days-of-the-week",
+      "title": "Hiding Specific Days Of The Week",
+      "last_updated": "2024-01-19",
+      "sha256": "53148309d60f5f13bd8a243d1af5ee26357e37d432c4b919851e8e941fa2d7bc"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/45-add-vat-and-billing-info-to-your-invoice",
+      "title": "Add VAT and Billing Info to Your Invoice",
+      "last_updated": "2024-05-31",
+      "sha256": "02d78eb3253ef063c566b88dd8cc2f765fba642aafdfee6a52cbd306ea336ada"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/47-display-pie-calendar-meta-fields-in-admin-edit-screens",
+      "title": "Display Pie Calendar Meta Fields in Admin Edit Screens via Admin Columns",
+      "last_updated": "2026-04-14",
+      "sha256": "4de37536de865ffd859d543dd9694cd0d9c3852644adcbb77c11f597fcde536a"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/48-skip-popover-and-go-to-custom-url-field",
+      "title": "Skip Popover and Go To Custom URL Field",
+      "last_updated": "2025-07-11",
+      "sha256": "3cebacb00ca4e6294b8fa0cec3d916fc5093f6c9b2fa350db5312fa8027afab7"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/49-import-a-csv-of-events-into-pie-calendar",
+      "title": "Import a CSV of Events Into Pie Calendar",
+      "last_updated": "2024-07-24",
+      "sha256": "5262ef92d7147e6021e9d64441770b225614755b44b17db5af5a24fc5321854f"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/5-shortcode-options",
+      "title": "Shortcode Options",
+      "last_updated": "2026-01-28",
+      "sha256": "538acf5b8a808e43d5e692ce98383f9c3a1983bf03e907239c2fab489c5a659f"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/50-using-custom-field-data-in-pie-calendar-popover",
+      "title": "Using Custom Field Data in Pie Calendar Popover",
+      "last_updated": "2024-09-10",
+      "sha256": "1a8bdc55a631c9f076c3538b473c37a28e0dc2dda62d89a8db9152edb77110f3"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/51-show-featured-image-in-popover",
+      "title": "Show Featured Image in Popover",
+      "last_updated": "2024-09-10",
+      "sha256": "315096300d4b22e3fb147c323ddc053054941413a52eafb1f8c17f40e2f77819"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/52-using-custom-field-as-post-link-url-in-popover",
+      "title": "Using Custom Field As Post Link URL In Popover",
+      "last_updated": "2024-09-16",
+      "sha256": "8694c8a077b8094363d1d8878142419fc1ce3a9531912e425ce6bcd8bcde9366"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/53-why-arent-my-custom-post-type-events-showing-up-on-the-calendar",
+      "title": "Why aren't my custom post type events showing up on the calendar?",
+      "last_updated": "2024-09-25",
+      "sha256": "005a78797d321a0c2e171a893eea2d2309205ec23f2257b1db6f8ee702b07096"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/55-how-to-import-pie-calendar-events",
+      "title": "How to Import Pie Calendar Events",
+      "last_updated": "2024-10-05",
+      "sha256": "832a2a7d6e280ad0341c778b2bc81aa5f9fff40628280f54837d99c1003af285"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/56-adding-custom-javascript-to-calendar-hooks",
+      "title": "Adding Custom JavaScript To Calendar Hooks",
+      "last_updated": "2025-08-06",
+      "sha256": "f4a80554bc3f43c11460b998c28f1b5bdb31299d3c303c0d72b15fde6e9983e6"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/58-pro-1-3-3-add-to-calendar-links-missing-and-console-error-alpine-expression-error-piecalvarspro-is-not-defined",
+      "title": "(Pro 1.3.3) Add To Calendar links missing and console error 'Alpine Expression Error: piecalVarsPro is not defined'",
+      "last_updated": "2024-11-26",
+      "sha256": "f7a304693409c7a1f0b59cae09e77d43d245b636097c6e7b9aefb3664569d0f1"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/6-wrap-long-lines-on-front-end",
+      "title": "Wrap Long Lines on Front End",
+      "last_updated": "2023-06-07",
+      "sha256": "b38d022d246cd79929a18e889537183a11ea2c9534a9196b56621c80d74692b9"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/60-creating-a-custom-view",
+      "title": "Creating a Custom View",
+      "last_updated": "2025-08-27",
+      "sha256": "aea85603c39fcb14d3ac41336e3508c81b5de02fc84410bf1a4545728d1b889a"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/62-removing-pie-calendars-meta-boxes-and-sidebar-controls",
+      "title": "Removing Pie Calendar's meta boxes and sidebar controls",
+      "last_updated": "2024-12-19",
+      "sha256": "cc677bea47b3421a4418a345e73ea4c5b715603920c1829d01f8166fe36e442c"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/63-setting-a-post-type-to-be-enabled-as-an-event-by-default",
+      "title": "Setting a post type to be enabled as an event by default",
+      "last_updated": "2024-12-19",
+      "sha256": "6ec053baf5cc71ff6bf3c0e1943ac21f3c0139cc8c28ad503302db8468a50ec6"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/64-adding-pie-calendar-controls-to-the-calendar-footer",
+      "title": "Adding Pie Calendar controls to the calendar footer",
+      "last_updated": "2025-01-10",
+      "sha256": "459d749b74cb14d83afedab8c6ead9910ea33c9985cf96a45ab3d5f3c45f7ce1"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/65-removing-views-from-the-dropdown-list",
+      "title": "Removing views from the dropdown list",
+      "last_updated": "2026-02-23",
+      "sha256": "d392b1e5aba08d1aefee5c7c134da74e2343b9e50fb896f370ccc6b91011cf90"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/66-limit-number-of-events-shown-only-on-specific-pages",
+      "title": "Limit number of events shown only on specific pages",
+      "last_updated": "2025-01-16",
+      "sha256": "35fb024dabbfdfb2563eaa3778fe2781e69de7dd0e83ce996edcf9dc3587fc70"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/67-customizing-date-formats-across-pie-calendar",
+      "title": "Customizing date formats across Pie Calendar",
+      "last_updated": "2025-01-23",
+      "sha256": "f0f94fa6cdf725b675d7ad6f24a72c0c1d1de0c15545c09554deb42748ff8292"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/68-working-directly-with-piecalrsets",
+      "title": "Working directly with _piecal_rsets",
+      "last_updated": "2025-01-30",
+      "sha256": "e155fa39c4bbf6fdde631f874084d561c82b78c5bb00d16432153212b04a3c77"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/69-adding-custom-properties-for-the-calendar-object",
+      "title": "Adding Custom Properties For The Calendar Object",
+      "last_updated": "2025-02-25",
+      "sha256": "b4582f4473026aad1a20b9c092d7503446e01b6bdcdf0cdb95ed24321cedbd7c"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/7-front-end-calendar-submissions-tutorial",
+      "title": "Front End Calendar Submissions Tutorial",
+      "last_updated": "2023-06-07",
+      "sha256": "11106a9966fcc053465a0040eacbe564a484b82761c0418e257616d4f6631527"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/70-rendering-html-in-popover-event-details-area",
+      "title": "Rendering HTML In Popover Event Details Area",
+      "last_updated": "2025-10-01",
+      "sha256": "73c9eb917ea9809034c085999007d4c2cf7bfd0a06c2ab634de01d130f02e456"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/71-block-editor-support",
+      "title": "Block Editor Support",
+      "last_updated": "2025-04-28",
+      "sha256": "0e3a20bcf38e849428288a8fdc1b87c6a9e7eac2dda132b012daa990e767559d"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/73-surecart-integration",
+      "title": "[Pro] SureCart Integration",
+      "last_updated": "2025-05-13",
+      "sha256": "401faec81a80d03018082522ec46de46697dd51d09b5246c5e88e9043c7f8601"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/8-meta-fields",
+      "title": "Meta Fields",
+      "last_updated": "2025-01-02",
+      "sha256": "ce72389c6fa4b5b66993296e8ed5b913336e26e42f0495319e4d85ff01bafd7d"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/80-displaying-a-list-of-recurrences-for-a-single-event",
+      "title": "Displaying a List of Recurrences for a Single Event",
+      "last_updated": "2025-10-02",
+      "sha256": "f5a05737699e951a0a7b2e70817b91d59a39dc41ce243ec9b7061defca13a9ff"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/81-show-only-a-specific-number-of-upcoming-events",
+      "title": "Show only a specific number of upcoming events",
+      "last_updated": "2025-10-23",
+      "sha256": "5e8ea528b130bcf22b87c4c214178a47d8c9f8c844a6aaa2855d1b73593dedf7"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/83-how-to-use-the-pie-calendar-connector-add-on",
+      "title": "How to use the Pie Calendar Connector add-on",
+      "last_updated": "2026-02-25",
+      "sha256": "6095cd818d974afeabee6e23ffa0de6b3f7d8905672138d1028ebb235f400117"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/84-setting-up-eventbrite-webhooks",
+      "title": "Setting up Eventbrite Webhooks",
+      "last_updated": "2026-02-25",
+      "sha256": "617225bb94fa69d780c1892e13945f9bc2ccc13ffab7e592af5674cbd7ee508e"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/85-show-event-data-on-single-posts-piecal-info",
+      "title": "Show Event Data on Single Posts with Pie Calendar Info [piecal-info]",
+      "last_updated": "2026-01-28",
+      "sha256": "489fb33a53a02173444ec09b64204aef894c82fa342a0699f4f5f26c8f48ae05"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/86-modifying-day-names-in-specific-views-that-use-dayheaderdidmount",
+      "title": "Modifying day names in specific views that use dayHeaderDidMount",
+      "last_updated": "2026-02-23",
+      "sha256": "707a182b57ad9af4b538d5c740af051fffeb26cad3fc781e8b062d4efc82182f"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/87-use-real-url-for-events-and-skip-popover-when-clicked-going-straight-to-event-permalink-instead",
+      "title": "Use real URL for events and skip popover when clicked, going straight to event permalink instead",
+      "last_updated": "2026-02-23",
+      "sha256": "737702542a0a1d77d889190b0ecc796a6bc7377272832cdad58ddc0e8a5d2b5c"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/90-setting-up-eventbrite-with-pie-calendar-connector-for-wordpress",
+      "title": "Setting up Eventbrite with Pie Calendar Connector for WordPress",
+      "last_updated": "2026-02-25",
+      "sha256": "fc63794b2ef77ac51c75075f7e1966645036b08a4a3cfb1dcd559ea06dece3d2"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/91-setting-up-ics-feeds-with-pie-calendar-connector-for-wordpress",
+      "title": "Setting up ICS Feeds with Pie Calendar Connector for WordPress",
+      "last_updated": "2026-02-25",
+      "sha256": "71e5370d0af39d69cc9d64e816e8a7f381ad79b6fecfa82e7e51c024f4f038c6"
+    },
+    {
+      "url": "https://docs.piecalendar.com/article/94-change-shortcode-attributes-based-on-url-parameters",
+      "title": "Change shortcode attributes based on URL parameters",
+      "last_updated": "2026-06-01",
+      "sha256": "cbec994fe15bd72a50e63e9e2d6e8c68ccda473459eee7a29a35528f21e1b0ef"
+    }
+  ]
+}

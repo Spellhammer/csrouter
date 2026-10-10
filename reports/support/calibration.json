@@ -1,0 +1,1473 @@
+{
+  "summary": {
+    "questions": 104,
+    "classifier_exact_label_accuracy": 0.9615384615384616,
+    "automatic_answers": 71,
+    "self_service_answers": 66,
+    "licensing_support_referrals": 5,
+    "accepted_answer_precision": 1.0,
+    "coverage": 0.6826923076923077,
+    "incorrect_auto_answers": 0,
+    "human_required_questions": 12,
+    "human_required_correctly_escalated": 12,
+    "source_checked_answer_equivalences": 0
+  },
+  "records": [
+    {
+      "text": "I have a normal WordPress post and want to turn it into an event.",
+      "expected_label": "create_event",
+      "predicted_label": "create_event",
+      "confidence": 0.976,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "create_event"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Where should I enter the date for my new event?",
+      "expected_label": "create_event",
+      "predicted_label": "create_event",
+      "confidence": 0.8727,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "create_event"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Can I schedule an all day gathering on my calendar?",
+      "expected_label": "create_event",
+      "predicted_label": "create_event",
+      "confidence": 0.4242,
+      "state": "human_required",
+      "reason": "below_confidence_threshold",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "create_event"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "Which shortcode do I need to show the calendar itself?",
+      "expected_label": "display_calendar",
+      "predicted_label": "display_calendar",
+      "confidence": 0.9678,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "display_calendar"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "I created events; how do I display their calendar on a page?",
+      "expected_label": "display_calendar",
+      "predicted_label": "display_calendar",
+      "confidence": 0.9651,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "display_calendar"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Can I add the event calendar to my home page content?",
+      "expected_label": "display_calendar",
+      "predicted_label": "display_calendar",
+      "confidence": 0.8556,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "display_calendar"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Can the calendar start in a weekly agenda view?",
+      "expected_label": "calendar_views",
+      "predicted_label": "calendar_views",
+      "confidence": 0.9524,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "calendar_views"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "I want a list instead of the month grid.",
+      "expected_label": "calendar_views",
+      "predicted_label": "calendar_views",
+      "confidence": 0.9943,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "calendar_views"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "What values does the view attribute accept?",
+      "expected_label": "calendar_views",
+      "predicted_label": "human_required",
+      "confidence": 0.4675,
+      "state": "human_required",
+      "reason": "human_required_label",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "calendar_views"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "We only have a few events annually; can the list span twelve months?",
+      "expected_label": "upcoming_events",
+      "predicted_label": "upcoming_events",
+      "confidence": 0.9839,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "upcoming_events"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Which views support duration?",
+      "expected_label": "upcoming_events",
+      "predicted_label": "upcoming_events",
+      "confidence": 0.9107,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "upcoming_events"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Can I list the next two years?",
+      "expected_label": "upcoming_events",
+      "predicted_label": "upcoming_events",
+      "confidence": 0.9925,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "upcoming_events"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Can I force Spanish even though WordPress is English?",
+      "expected_label": "calendar_locale",
+      "predicted_label": "calendar_locale",
+      "confidence": 0.9977,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "calendar_locale"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "How do I translate the calendar's interface labels?",
+      "expected_label": "calendar_locale",
+      "predicted_label": "calendar_locale",
+      "confidence": 0.9813,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "calendar_locale"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Which parameter sets the locale?",
+      "expected_label": "calendar_locale",
+      "predicted_label": "calendar_locale",
+      "confidence": 0.9965,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "calendar_locale"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Can the calendar switch between light and dark automatically?",
+      "expected_label": "calendar_theme",
+      "predicted_label": "calendar_theme",
+      "confidence": 0.9519,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "calendar_theme"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "I want dark mode on all the time.",
+      "expected_label": "calendar_theme",
+      "predicted_label": "calendar_theme",
+      "confidence": 0.9595,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "calendar_theme"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "How do I follow prefers-color-scheme?",
+      "expected_label": "calendar_theme",
+      "predicted_label": "calendar_theme",
+      "confidence": 0.9718,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "calendar_theme"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Some calendar event names are too long for the boxes.",
+      "expected_label": "wrap_titles",
+      "predicted_label": "wrap_titles",
+      "confidence": 0.9703,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "wrap_titles"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Is there a shortcode setting to wrap titles?",
+      "expected_label": "wrap_titles",
+      "predicted_label": "wrap_titles",
+      "confidence": 0.9996,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "wrap_titles"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "I want multi-line names in event cells.",
+      "expected_label": "wrap_titles",
+      "predicted_label": "wrap_titles",
+      "confidence": 0.9726,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "wrap_titles"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Can the calendar use its compact layout only on mobile?",
+      "expected_label": "mobile_widget",
+      "predicted_label": "mobile_widget",
+      "confidence": 0.9675,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "mobile_widget"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "I need widget mode permanently enabled.",
+      "expected_label": "mobile_widget",
+      "predicted_label": "mobile_widget",
+      "confidence": 0.9863,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "mobile_widget"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "What is the responsive widget breakpoint?",
+      "expected_label": "mobile_widget",
+      "predicted_label": "mobile_widget",
+      "confidence": 0.9796,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "mobile_widget"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "I leave the end blank but the calendar adds an hour.",
+      "expected_label": "automatic_end_dates",
+      "predicted_label": "automatic_end_dates",
+      "confidence": 0.7295,
+      "state": "human_required",
+      "reason": "below_confidence_threshold",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "automatic_end_dates"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "Which attribute stops an automatic end date?",
+      "expected_label": "automatic_end_dates",
+      "predicted_label": "automatic_end_dates",
+      "confidence": 0.9888,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "automatic_end_dates"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "How do I disable the default one-hour ending?",
+      "expected_label": "automatic_end_dates",
+      "predicted_label": "automatic_end_dates",
+      "confidence": 0.9967,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "automatic_end_dates"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Can one class repeat on Tuesdays and Thursdays?",
+      "expected_label": "recurring_events",
+      "predicted_label": "recurring_events",
+      "confidence": 0.988,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "recurring_events"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "I need to remove a holiday from a repeating series.",
+      "expected_label": "recurring_events",
+      "predicted_label": "recurring_events",
+      "confidence": 0.8721,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "recurring_events"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "How do I make the event recur every three months?",
+      "expected_label": "recurring_events",
+      "predicted_label": "recurring_events",
+      "confidence": 0.9487,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "recurring_events"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "I want this calendar to contain only my courses post type.",
+      "expected_label": "post_type_filter",
+      "predicted_label": "post_type_filter",
+      "confidence": 0.9857,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "post_type_filter"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Can I pass events and post together in type?",
+      "expected_label": "post_type_filter",
+      "predicted_label": "post_type_filter",
+      "confidence": 0.9814,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "post_type_filter"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Which attribute filters by WordPress post type?",
+      "expected_label": "post_type_filter",
+      "predicted_label": "post_type_filter",
+      "confidence": 0.9561,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "post_type_filter"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "The event sidebar is absent when editing my custom courses post type.",
+      "expected_label": "custom_post_type_setup",
+      "predicted_label": "custom_post_type_setup",
+      "confidence": 0.6685,
+      "state": "human_required",
+      "reason": "below_confidence_threshold",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "custom_post_type_setup"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "Which Supports options should I enable in CPTUI?",
+      "expected_label": "custom_post_type_setup",
+      "predicted_label": "custom_post_type_setup",
+      "confidence": 0.9978,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "custom_post_type_setup"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "How do I get Pie Calendar fields on an ACF-created post type?",
+      "expected_label": "custom_post_type_setup",
+      "predicted_label": "custom_post_type_setup",
+      "confidence": 0.9347,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "custom_post_type_setup"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Can I make a calendar just for Concerts category events?",
+      "expected_label": "taxonomy_filter",
+      "predicted_label": "taxonomy_filter",
+      "confidence": 0.2362,
+      "state": "human_required",
+      "reason": "below_confidence_threshold",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "taxonomy_filter"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "I want to exclude the Outdoors taxonomy term.",
+      "expected_label": "taxonomy_filter",
+      "predicted_label": "taxonomy_filter",
+      "confidence": 0.9985,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "taxonomy_filter"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "How do I set multiple terms for a taxonomy filter?",
+      "expected_label": "taxonomy_filter",
+      "predicted_label": "taxonomy_filter",
+      "confidence": 0.9956,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "taxonomy_filter"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "The Oxygen canvas doesn't show the calendar but the live page does.",
+      "expected_label": "builder_compatibility",
+      "predicted_label": "human_required",
+      "confidence": 0.9364,
+      "state": "human_required",
+      "reason": "human_required_label",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "builder_compatibility"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "Is Elementor on your compatibility list?",
+      "expected_label": "builder_compatibility",
+      "predicted_label": "builder_compatibility",
+      "confidence": 0.9884,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "builder_compatibility"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Can I use this plugin with Beaver Builder?",
+      "expected_label": "builder_compatibility",
+      "predicted_label": "builder_compatibility",
+      "confidence": 0.9797,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "builder_compatibility"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "I prefer Gutenberg controls rather than shortcode attributes.",
+      "expected_label": "block_editor",
+      "predicted_label": "block_editor",
+      "confidence": 0.6603,
+      "state": "human_required",
+      "reason": "below_confidence_threshold",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "block_editor"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "How do I replace my old shortcode with the block?",
+      "expected_label": "block_editor",
+      "predicted_label": "block_editor",
+      "confidence": 0.9968,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "block_editor"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Where do I find the calendar block in WordPress?",
+      "expected_label": "block_editor",
+      "predicted_label": "block_editor",
+      "confidence": 0.9719,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "block_editor"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Can visitors add my event to their personal calendar?",
+      "expected_label": "add_to_calendar",
+      "predicted_label": "add_to_calendar",
+      "confidence": 0.8028,
+      "state": "human_required",
+      "reason": "no_enabled_answer",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "add_to_calendar"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "I need just the Add to Calendar buttons on an event page.",
+      "expected_label": "add_to_calendar",
+      "predicted_label": "add_to_calendar",
+      "confidence": 0.6298,
+      "state": "human_required",
+      "reason": "no_enabled_answer",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "add_to_calendar"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "Where do I turn on the Google Calendar export link?",
+      "expected_label": "add_to_calendar",
+      "predicted_label": "add_to_calendar",
+      "confidence": 0.9808,
+      "state": "human_required",
+      "reason": "no_enabled_answer",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "add_to_calendar"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "My visitor sees 8:30 but I entered 9:30 in New York.",
+      "expected_label": "adaptive_timezone",
+      "predicted_label": "adaptive_timezone",
+      "confidence": 0.6793,
+      "state": "human_required",
+      "reason": "below_confidence_threshold",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "adaptive_timezone"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "Can all users see the original site timezone?",
+      "expected_label": "adaptive_timezone",
+      "predicted_label": "adaptive_timezone",
+      "confidence": 0.996,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "adaptive_timezone"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Does adaptive timezone account for daylight savings?",
+      "expected_label": "adaptive_timezone",
+      "predicted_label": "adaptive_timezone",
+      "confidence": 0.9968,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "adaptive_timezone"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "My single-event page needs a start date and timezone.",
+      "expected_label": "event_info",
+      "predicted_label": "event_info",
+      "confidence": 0.9407,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "event_info"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Which shortcode prints the event's dates rather than a calendar?",
+      "expected_label": "event_info",
+      "predicted_label": "display_calendar",
+      "confidence": 0.4234,
+      "state": "human_required",
+      "reason": "below_confidence_threshold",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "event_info"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "Can I format dates in the event info output?",
+      "expected_label": "event_info",
+      "predicted_label": "event_info",
+      "confidence": 0.9822,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "event_info"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "I already store event dates in ACF Date Time Picker fields.",
+      "expected_label": "custom_date_fields",
+      "predicted_label": "custom_date_fields",
+      "confidence": 0.9447,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "custom_date_fields"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Can the calendar read custom_event_start instead of its own start field?",
+      "expected_label": "custom_date_fields",
+      "predicted_label": "custom_date_fields",
+      "confidence": 0.9479,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "custom_date_fields"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Will native event toggles still apply after replacing the date query?",
+      "expected_label": "custom_date_fields",
+      "predicted_label": "custom_date_fields",
+      "confidence": 0.5655,
+      "state": "human_required",
+      "reason": "explicit_human_or_investigation_request",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "custom_date_fields"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "I want concerts and workshops to have different colors.",
+      "expected_label": "event_colors",
+      "predicted_label": "event_colors",
+      "confidence": 0.8871,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "event_colors"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Can the event array filter set textColor?",
+      "expected_label": "event_colors",
+      "predicted_label": "event_colors",
+      "confidence": 0.9905,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "event_colors"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "How do I apply one color to all events of a CPT?",
+      "expected_label": "event_colors",
+      "predicted_label": "event_colors",
+      "confidence": 0.9835,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "event_colors"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "I want a photo inside the event popover when clicked.",
+      "expected_label": "popover_image",
+      "predicted_label": "popover_image",
+      "confidence": 0.9734,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "popover_image"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Is featuredimage=true available in Pro?",
+      "expected_label": "popover_image",
+      "predicted_label": "popover_image",
+      "confidence": 0.9987,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "popover_image"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "How do I display the post thumbnail in the popup?",
+      "expected_label": "popover_image",
+      "predicted_label": "popover_image",
+      "confidence": 0.9832,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "popover_image"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "I want the click to open the event page without a popup.",
+      "expected_label": "skip_popover",
+      "predicted_label": "skip_popover",
+      "confidence": 0.9997,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "skip_popover"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Can an ACF link field send people straight to another URL?",
+      "expected_label": "skip_popover",
+      "predicted_label": "skip_popover",
+      "confidence": 0.9906,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "skip_popover"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Which guide covers skipping the popover?",
+      "expected_label": "skip_popover",
+      "predicted_label": "skip_popover",
+      "confidence": 0.6352,
+      "state": "human_required",
+      "reason": "below_confidence_threshold",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "skip_popover"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "I'd like community members to submit listings from the website.",
+      "expected_label": "frontend_submissions",
+      "predicted_label": "frontend_submissions",
+      "confidence": 0.8452,
+      "state": "human_required",
+      "reason": "below_confidence_threshold",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "frontend_submissions"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "Can a form create posts that appear on the calendar?",
+      "expected_label": "frontend_submissions",
+      "predicted_label": "frontend_submissions",
+      "confidence": 0.8569,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "frontend_submissions"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Which form plugin does your submission tutorial demonstrate?",
+      "expected_label": "frontend_submissions",
+      "predicted_label": "frontend_submissions",
+      "confidence": 0.9915,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "frontend_submissions"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "I have hundreds of events in a spreadsheet to bring into WordPress.",
+      "expected_label": "csv_import",
+      "predicted_label": "csv_import",
+      "confidence": 0.796,
+      "state": "human_required",
+      "reason": "below_confidence_threshold",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "csv_import"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "Can an importer map columns into Pie Calendar fields?",
+      "expected_label": "csv_import",
+      "predicted_label": "csv_import",
+      "confidence": 0.961,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "csv_import"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Must I use WP All Import Pro for event CSVs?",
+      "expected_label": "csv_import",
+      "predicted_label": "csv_import",
+      "confidence": 0.9999,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "csv_import"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "I own a smaller license and want unlimited sites.",
+      "expected_label": "license_upgrade",
+      "predicted_label": "license_upgrade",
+      "confidence": 0.9287,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "license_upgrade"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Where in my account can I upgrade my site allowance?",
+      "expected_label": "license_upgrade",
+      "predicted_label": "license_upgrade",
+      "confidence": 0.9902,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "license_upgrade"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Does upgrading require a new license key?",
+      "expected_label": "license_upgrade",
+      "predicted_label": "license_upgrade",
+      "confidence": 0.9934,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "license_upgrade"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "I need my business address printed on a PDF invoice.",
+      "expected_label": "invoice_update",
+      "predicted_label": "invoice_update",
+      "confidence": 0.9797,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "invoice_update"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Can I add a VAT ID after purchasing?",
+      "expected_label": "invoice_update",
+      "predicted_label": "invoice_update",
+      "confidence": 0.8346,
+      "state": "human_required",
+      "reason": "below_confidence_threshold",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "invoice_update"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "Where do I generate the revised invoice?",
+      "expected_label": "invoice_update",
+      "predicted_label": "invoice_update",
+      "confidence": 0.9939,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "invoice_update"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Can I pull my Google Calendar events into the website calendar?",
+      "expected_label": "connector_ics",
+      "predicted_label": "connector_ics",
+      "confidence": 0.7872,
+      "state": "human_required",
+      "reason": "below_confidence_threshold",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "connector_ics"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "Where do I enter an external ICS URL?",
+      "expected_label": "connector_ics",
+      "predicted_label": "connector_ics",
+      "confidence": 0.9758,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "connector_ics"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "How do I combine two ICS feed URLs?",
+      "expected_label": "connector_ics",
+      "predicted_label": "connector_ics",
+      "confidence": 0.9993,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "connector_ics"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "How do I pull my Eventbrite organization events into Pie Calendar?",
+      "expected_label": "connector_eventbrite",
+      "predicted_label": "connector_eventbrite",
+      "confidence": 0.9601,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "connector_eventbrite"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Where does the Eventbrite private token go?",
+      "expected_label": "connector_eventbrite",
+      "predicted_label": "connector_eventbrite",
+      "confidence": 0.9758,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "connector_eventbrite"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Can I mix Eventbrite events and WordPress events?",
+      "expected_label": "connector_eventbrite",
+      "predicted_label": "connector_eventbrite",
+      "confidence": 0.9877,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "static_answer",
+      "acceptable_labels": [
+        "connector_eventbrite"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "I need edits in Eventbrite to update my WordPress events automatically.",
+      "expected_label": "connector_webhooks",
+      "predicted_label": "connector_webhooks",
+      "confidence": 0.6363,
+      "state": "human_required",
+      "reason": "no_enabled_answer",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "connector_webhooks"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "Which webhook endpoint should I configure?",
+      "expected_label": "connector_webhooks",
+      "predicted_label": "connector_webhooks",
+      "confidence": 0.9921,
+      "state": "human_required",
+      "reason": "no_enabled_answer",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "connector_webhooks"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "Is a delay of several minutes normal for Eventbrite changes?",
+      "expected_label": "connector_webhooks",
+      "predicted_label": "connector_webhooks",
+      "confidence": 0.5818,
+      "state": "human_required",
+      "reason": "no_enabled_answer",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "connector_webhooks"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "Please transfer me to your support team.",
+      "expected_label": "human_required",
+      "predicted_label": "human_required",
+      "confidence": 0.9998,
+      "state": "human_required",
+      "reason": "explicit_human_or_investigation_request",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "human_required"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "The site throws a fatal PHP error after the update.",
+      "expected_label": "human_required",
+      "predicted_label": "human_required",
+      "confidence": 0.9988,
+      "state": "human_required",
+      "reason": "explicit_human_or_investigation_request",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "human_required"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "Can you check the status of my particular payment?",
+      "expected_label": "human_required",
+      "predicted_label": "human_required",
+      "confidence": 0.9965,
+      "state": "human_required",
+      "reason": "explicit_human_or_investigation_request",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "human_required"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "What's the current renewal price?",
+      "expected_label": "human_required",
+      "predicted_label": "human_required",
+      "confidence": 0.8163,
+      "state": "human_required",
+      "reason": "explicit_human_or_investigation_request",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "human_required"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "My activation limit needs resetting.",
+      "expected_label": "human_required",
+      "predicted_label": "human_required",
+      "confidence": 0.9841,
+      "state": "human_required",
+      "reason": "human_required_label",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "human_required"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "I need custom code for a private client project.",
+      "expected_label": "human_required",
+      "predicted_label": "human_required",
+      "confidence": 0.9581,
+      "state": "human_required",
+      "reason": "explicit_human_or_investigation_request",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "human_required"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "Can you fix an invoice dispute for me?",
+      "expected_label": "human_required",
+      "predicted_label": "human_required",
+      "confidence": 0.9801,
+      "state": "human_required",
+      "reason": "explicit_human_or_investigation_request",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "human_required"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "Write a poem about a pie.",
+      "expected_label": "human_required",
+      "predicted_label": "human_required",
+      "confidence": 0.9524,
+      "state": "human_required",
+      "reason": "human_required_label",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "human_required"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "I have no idea what's wrong; it just fails.",
+      "expected_label": "human_required",
+      "predicted_label": "human_required",
+      "confidence": 1.0,
+      "state": "human_required",
+      "reason": "explicit_human_or_investigation_request",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "human_required"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "I tried the ICS setup but the feed still cannot load.",
+      "expected_label": "human_required",
+      "predicted_label": "connector_ics",
+      "confidence": 0.9608,
+      "state": "human_required",
+      "reason": "explicit_human_or_investigation_request",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "human_required"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "Give me a refund and tell me how to show the calendar.",
+      "expected_label": "human_required",
+      "predicted_label": "human_required",
+      "confidence": 0.9962,
+      "state": "human_required",
+      "reason": "explicit_human_or_investigation_request",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "human_required"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "I need legal assurances that this site is accessible.",
+      "expected_label": "human_required",
+      "predicted_label": "human_required",
+      "confidence": 0.9967,
+      "state": "human_required",
+      "reason": "explicit_human_or_investigation_request",
+      "response_type": "human_required",
+      "acceptable_labels": [
+        "human_required"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": false
+    },
+    {
+      "text": "My license is saved but plugin updates report unauthorized.",
+      "expected_label": "license_activation",
+      "predicted_label": "license_activation",
+      "confidence": 0.9986,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "support_referral",
+      "acceptable_labels": [
+        "license_activation"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "The Pro license won't activate on this website.",
+      "expected_label": "license_activation",
+      "predicted_label": "license_activation",
+      "confidence": 0.9966,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "support_referral",
+      "acceptable_labels": [
+        "license_activation"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "Who should I contact about license authentication failures?",
+      "expected_label": "license_activation",
+      "predicted_label": "license_activation",
+      "confidence": 0.9597,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "support_referral",
+      "acceptable_labels": [
+        "license_activation"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "I cleared and re-entered the license but the updater still can't authenticate.",
+      "expected_label": "license_activation",
+      "predicted_label": "license_activation",
+      "confidence": 0.9725,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "support_referral",
+      "acceptable_labels": [
+        "license_activation"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    },
+    {
+      "text": "How do I get help with Pie Calendar licensing issues?",
+      "expected_label": "license_activation",
+      "predicted_label": "license_activation",
+      "confidence": 0.9177,
+      "state": "answered",
+      "reason": "accepted",
+      "response_type": "support_referral",
+      "acceptable_labels": [
+        "license_activation"
+      ],
+      "answer_equivalence_review": null,
+      "correct_auto_answer": true
+    }
+  ]
+}

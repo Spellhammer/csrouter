@@ -1,0 +1,52 @@
+{
+  "task_id": "csrouter",
+  "synthetic": true,
+  "review_status": "needs_human_review",
+  "labels": [
+    "create_event",
+    "display_calendar",
+    "calendar_views",
+    "upcoming_events",
+    "calendar_locale",
+    "calendar_theme",
+    "wrap_titles",
+    "mobile_widget",
+    "automatic_end_dates",
+    "recurring_events",
+    "post_type_filter",
+    "custom_post_type_setup",
+    "taxonomy_filter",
+    "builder_compatibility",
+    "block_editor",
+    "add_to_calendar",
+    "adaptive_timezone",
+    "event_info",
+    "custom_date_fields",
+    "event_colors",
+    "popover_image",
+    "skip_popover",
+    "frontend_submissions",
+    "csv_import",
+    "license_upgrade",
+    "invoice_update",
+    "connector_ics",
+    "connector_eventbrite",
+    "connector_webhooks",
+    "license_activation",
+    "human_required"
+  ],
+  "counts": {
+    "train": 791,
+    "calibration": 104,
+    "evaluation": 154,
+    "unique_license_activation_training_questions": 16
+  },
+  "training_augmentation": "Each answer route has distinct seed questions and product-context variants. license_activation has 16 unique seeds and 16 variants; the other routes have 12 seeds and 12 variants. These are not independent customer observations.",
+  "split_policy": "Separate authored calibration and evaluation questions; no random split of augmented variants. Evaluation must not select thresholds.",
+  "limitations": [
+    "Synthetic questions do not establish real-customer accuracy.",
+    "English-only; unknown topics may receive high classifier confidence.",
+    "Answers require product-owner review before production use."
+  ],
+  "license_activation_answer_authority": "Approved directly by the product owner on 2026-10-10."
+}

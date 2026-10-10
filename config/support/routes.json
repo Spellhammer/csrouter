@@ -1,0 +1,715 @@
+{
+  "schema_version": 1,
+  "task_id": "csrouter",
+  "product": "Pie Calendar",
+  "model_pack": "models/jeffy",
+  "review_status": "synthetic_draft_needs_human_review",
+  "docs_fetched_at": "2026-10-10T14:05:52.160840+00:00",
+  "default_threshold": 0.9,
+  "minimum_margin": 0.15,
+  "max_clarifications": 2,
+  "fallback_label": "human_required",
+  "fallback_answer": "I'm sorry, I'm not sure I can provide the assistance you're looking for. Let me send this conversation to a human representative and have them help you instead.",
+  "handoff_url": "https://piecalendar.com/contact/",
+  "routes": {
+    "create_event": {
+      "title": "Create an event",
+      "answer": "Edit the WordPress post or page you want to use as an event. Enable Show on Calendar, set its start date and time, and optionally set an end date or mark it all-day. In Gutenberg the controls are in the sidebar; in the Classic Editor they are below the content. Display your events on a page using the Pie Calendar block or [piecal].",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/4-4-minute-quick-start-guide",
+          "title": "4 Minute Quick Start Guide",
+          "last_updated": "2025-11-07",
+          "sha256": "64669bc118dc52bfa01ff11b31e4f18992e8014456e2fbdad92352a278d7c821"
+        }
+      ]
+    },
+    "display_calendar": {
+      "title": "Display a calendar on a page",
+      "answer": "Insert [piecal] on the page where you want the calendar to appear. If you use the WordPress Block Editor, you can insert the Pie Calendar block instead. Posts and pages must be configured as events with dates to appear in the calendar.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/5-shortcode-options",
+          "title": "Shortcode Options",
+          "last_updated": "2026-01-28",
+          "sha256": "538acf5b8a808e43d5e692ce98383f9c3a1983bf03e907239c2fab489c5a659f"
+        },
+        {
+          "url": "https://docs.piecalendar.com/article/4-4-minute-quick-start-guide",
+          "title": "4 Minute Quick Start Guide",
+          "last_updated": "2025-11-07",
+          "sha256": "64669bc118dc52bfa01ff11b31e4f18992e8014456e2fbdad92352a278d7c821"
+        }
+      ]
+    },
+    "calendar_views": {
+      "title": "Choose a calendar view",
+      "answer": "Set the view attribute on [piecal], for example [piecal view=\"listMonth\"] for a monthly list or [piecal view=\"timeGridWeek\"] for a weekly time grid. Documented choices include dayGridMonth, listMonth, timeGridWeek, listWeek, dayGridWeek, and listDay. The calendar block also exposes view controls.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/5-shortcode-options",
+          "title": "Shortcode Options",
+          "last_updated": "2026-01-28",
+          "sha256": "538acf5b8a808e43d5e692ce98383f9c3a1983bf03e907239c2fab489c5a659f"
+        }
+      ]
+    },
+    "upcoming_events": {
+      "title": "Show several months of upcoming events",
+      "answer": "Use [piecal view=\"listUpcoming\" duration=\"12\"] to show the next 12 months. The duration attribute supports up to 24 months and applies to listUpcoming and listMonthWithFeaturedImage. For the featured-image list, use [piecal view=\"listMonthWithFeaturedImage\" duration=\"6\"]; that view requires Pro. These controls are also available in the block.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/5-shortcode-options",
+          "title": "Shortcode Options",
+          "last_updated": "2026-01-28",
+          "sha256": "538acf5b8a808e43d5e692ce98383f9c3a1983bf03e907239c2fab489c5a659f"
+        }
+      ]
+    },
+    "calendar_locale": {
+      "title": "Change calendar language",
+      "answer": "The calendar normally uses your WordPress site's locale. To set a different calendar language, use the locale attribute, for example [piecal locale=\"es\"] for Spanish. For plugin interface strings, the internationalization guide describes translating with a plugin such as Loco Translate; check translated results on the front end.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/5-shortcode-options",
+          "title": "Shortcode Options",
+          "last_updated": "2026-01-28",
+          "sha256": "538acf5b8a808e43d5e692ce98383f9c3a1983bf03e907239c2fab489c5a659f"
+        },
+        {
+          "url": "https://docs.piecalendar.com/article/40-internationalization",
+          "title": "Internationalization",
+          "last_updated": "2024-04-25",
+          "sha256": "ca4e2987b0550ca811ee03db373ca07c98baad3944d2f3a007201446387013fd"
+        }
+      ]
+    },
+    "calendar_theme": {
+      "title": "Set dark or adaptive calendar theme",
+      "answer": "Use [piecal theme=\"dark\"] to force dark mode, or [piecal theme=\"adaptive\"] to follow the visitor's operating-system color-scheme preference. Test adaptive mode with your WordPress theme: if the site theme does not adapt too, calendar text can become difficult to read.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/5-shortcode-options",
+          "title": "Shortcode Options",
+          "last_updated": "2026-01-28",
+          "sha256": "538acf5b8a808e43d5e692ce98383f9c3a1983bf03e907239c2fab489c5a659f"
+        }
+      ]
+    },
+    "wrap_titles": {
+      "title": "Wrap long event titles",
+      "answer": "Add wraptitles to your shortcode, for example [piecal wraptitles=\"true\"]. Long event names will wrap within their calendar cells instead of being cut off by the cell boundaries.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/5-shortcode-options",
+          "title": "Shortcode Options",
+          "last_updated": "2026-01-28",
+          "sha256": "538acf5b8a808e43d5e692ce98383f9c3a1983bf03e907239c2fab489c5a659f"
+        }
+      ]
+    },
+    "mobile_widget": {
+      "title": "Use mobile or sidebar widget mode",
+      "answer": "Use [piecal widget=\"true\"] to keep widget mode on, or [piecal widget=\"responsive\"] to enable it at screen widths of 768px or less. Widget mode works only with the default Month - Classic / dayGridMonth view.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/5-shortcode-options",
+          "title": "Shortcode Options",
+          "last_updated": "2026-01-28",
+          "sha256": "538acf5b8a808e43d5e692ce98383f9c3a1983bf03e907239c2fab489c5a659f"
+        }
+      ]
+    },
+    "automatic_end_dates": {
+      "title": "Disable automatic one-hour end dates",
+      "answer": "For events without an explicit end date, Pie Calendar supplies an end date one hour after the start by default. Disable that behavior with [piecal automaticEndDates=false].",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/5-shortcode-options",
+          "title": "Shortcode Options",
+          "last_updated": "2026-01-28",
+          "sha256": "538acf5b8a808e43d5e692ce98383f9c3a1983bf03e907239c2fab489c5a659f"
+        }
+      ]
+    },
+    "recurring_events": {
+      "title": "Configure recurring events and blackouts",
+      "answer": "Recurring events require Pie Calendar Pro. Edit the event, open Event Recurrence, and choose + Add Rule. A Recurrence Rule sets interval, frequency, weekdays, start, and stop dates; Single Recurrence adds one extra occurrence. Use Blackout Rule or Blackout Date/Range to exclude occurrences. Weekly rules support multiple weekdays. Monthly rules can use REPEAT ON or Same Weekday & Position; avoid combining those two monthly options.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/17-how-to-configure-recurring-events",
+          "title": "How to Configure Recurring Events",
+          "last_updated": "2026-10-01",
+          "sha256": "12113f94c19562e942adee00de4f3c4d774eb1d0acf4705bd68adfa34c3cd520"
+        }
+      ]
+    },
+    "post_type_filter": {
+      "title": "Filter the calendar by post type",
+      "answer": "Use the type attribute with the actual WordPress post-type slug, for example [piecal type=\"event\"]. The calendar otherwise includes posts designated as events. Pro supports a comma-separated list of post types, for example [piecal type=\"events, post\"].",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/5-shortcode-options",
+          "title": "Shortcode Options",
+          "last_updated": "2026-01-28",
+          "sha256": "538acf5b8a808e43d5e692ce98383f9c3a1983bf03e907239c2fab489c5a659f"
+        },
+        {
+          "url": "https://docs.piecalendar.com/article/22-shortcode-options-pro-only",
+          "title": "Shortcode Options [Pro Only]",
+          "last_updated": "2025-04-28",
+          "sha256": "c1def30363ccc7f5b0421a7ffa4b639ba0e7ce69df3b862eb9d16ea852f4cc43"
+        }
+      ]
+    },
+    "custom_post_type_setup": {
+      "title": "Enable calendar controls on a custom post type",
+      "answer": "For your custom post type, enable Editor and Custom Fields in its Supports settings. When editing with Gutenberg, also enable Show in REST API. This applies to post types registered through tools such as CPTUI, ACF, and Meta Box. In ACF Pro, enable Advanced Configuration to access the Supports settings.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/14-use-with-custom-post-types",
+          "title": "Use With Custom Post Types",
+          "last_updated": "2024-03-21",
+          "sha256": "76b7173a7c2d451c5b0b37cb5fd8ed018185d42fbf5f16bc83e096eeda5e2e18"
+        }
+      ]
+    },
+    "taxonomy_filter": {
+      "title": "Filter events by categories or taxonomy terms",
+      "answer": "In Pro, use taxonomy and terms to filter the event query, for example [piecal taxonomy=\"category\" terms=\"Concerts\"]. Multiple terms can be comma-separated. The operator defaults to IN; documented alternatives include NOT IN, AND, EXISTS, and NOT EXISTS. Use the taxonomy and term values appropriate to your site.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/22-shortcode-options-pro-only",
+          "title": "Shortcode Options [Pro Only]",
+          "last_updated": "2025-04-28",
+          "sha256": "c1def30363ccc7f5b0421a7ffa4b639ba0e7ce69df3b862eb9d16ea852f4cc43"
+        }
+      ]
+    },
+    "builder_compatibility": {
+      "title": "Page-builder and theme compatibility",
+      "answer": "The compatibility guide lists Gutenberg, Classic Editor, Beaver Builder, Elementor, GeneratePress, and Divi as fully compatible. In Oxygen and Bricks, the [piecal] shortcode may not fully render inside the builder, but should render on the front end. Check the live page when the builder preview is incomplete; unresolved issues should go to support.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/34-compatibility-with-page-builders",
+          "title": "Compatibility With Page Builders and Themes",
+          "last_updated": "2024-01-22",
+          "sha256": "0c11b4bbe495fab4c041965274d8371eeda61cecd50d920115f0dbaa6af1da57"
+        }
+      ]
+    },
+    "block_editor": {
+      "title": "Add the calendar or event-info block",
+      "answer": "In the WordPress Block Editor, open the page or post, click Add Block (+), search for Pie Calendar, and select the calendar block. Configure its options in the editor. Use Pie Calendar Event Info for individual event details. To migrate an existing calendar shortcode, add the block, select equivalent settings, and remove that shortcode. Shortcodes remain supported.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/71-block-editor-support",
+          "title": "Block Editor Support",
+          "last_updated": "2025-04-28",
+          "sha256": "0e3a20bcf38e849428288a8fdc1b87c6a9e7eac2dda132b012daa990e767559d"
+        }
+      ]
+    },
+    "add_to_calendar": {
+      "title": "Enable visitor Add to Calendar links",
+      "answer": "Add to Calendar links require Pro and are off until enabled. In WordPress go to Settings > Pie Calendar and choose the calendars to show in the event popover. Supported destinations include Google Calendar, Office365, and ICS files for calendars such as Apple and Outlook. On a single-event page, use [piecal-info fragments=\"atc\"] to display only those links.",
+      "enabled": false,
+      "threshold": 0.99,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/30-add-to-calendar-links",
+          "title": "Add to Calendar Links",
+          "last_updated": "2024-10-23",
+          "sha256": "c0705381ae62aa3dfbe920b5e6f947dd9ef826a9c4cce08296582352bdbe9bae"
+        }
+      ]
+    },
+    "adaptive_timezone": {
+      "title": "Understand or disable adaptive time zones",
+      "answer": "The Pro adaptive-time-zone guide explains that event times are converted from the WordPress time zone (Settings > General) to each visitor's detected local time zone, including daylight saving time. To keep the calendar from adapting, use [piecal adaptiveTimeZone=false], or disable the corresponding block control. The visitor's detected zone is displayed below the front-end calendar.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/31-adaptive-time-zones",
+          "title": "Adaptive Time Zones",
+          "last_updated": "2025-05-20",
+          "sha256": "090db1ac7a800c90eb8c88b0c09b9415dc0afc7412fd8e122a0ef0b7e4cfe570"
+        }
+      ]
+    },
+    "event_info": {
+      "title": "Show dates and times on individual event pages",
+      "answer": "Use [piecal-info] or the Pie Calendar Event Info block on a single-event post or template. Select fragments such as start, end, timezone, allday, or all; for example [piecal-info fragments=\"start, timezone\"]. Pro also supports atc for Add to Calendar links. Date/time formatting defaults to WordPress settings and can be overridden using the format attribute with PHP date-format characters.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/85-show-event-data-on-single-posts-piecal-info",
+          "title": "Show Event Data on Single Posts with Pie Calendar Info [piecal-info]",
+          "last_updated": "2026-01-28",
+          "sha256": "489fb33a53a02173444ec09b64204aef894c82fa342a0699f4f5f26c8f48ae05"
+        }
+      ]
+    },
+    "custom_date_fields": {
+      "title": "Use existing custom fields for event dates",
+      "answer": "The developer guide supports existing date/time meta fields through piecal_event_query_args, piecal_start_date_meta_key, and piecal_end_date_meta_key. Its ACF example assumes Date Time Picker fields with the default return format. This changes the event query: only posts with the designated custom start field appear, and the native start/end controls and Show on Calendar toggle are ignored. Follow the linked example with your field names; site-specific code changes need developer review.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/23-use-custom-fields-as-event-date-time",
+          "title": "Use Custom Fields as Event Date & Time",
+          "last_updated": "2024-09-23",
+          "sha256": "c05883401aa218bbb6dfe1855d8f252aad34798346191c847f0f5ecc71444c79"
+        }
+      ]
+    },
+    "event_colors": {
+      "title": "Set event colors by event or taxonomy",
+      "answer": "Pro provides per-event color and text-color options. For automatic colors based on category, taxonomy term, or custom post type, the developer guide uses piecal_event_array_filter to change color and textColor on each event. Use the linked examples as a starting point and adapt the taxonomy, term slugs, post-type slug, and colors to your site.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/37-setting-event-colors-by-taxonomy-term",
+          "title": "Setting Event Colors By Taxonomy Term or CPT",
+          "last_updated": "2024-09-17",
+          "sha256": "35ab839f326d6ed222bd90caa91fc1443d087ae7805d7c2e6f82a91749289355"
+        }
+      ]
+    },
+    "popover_image": {
+      "title": "Show featured images in event popovers",
+      "answer": "In Pie Calendar Pro 1.3.2 or later, add featuredimage=true to your calendar shortcode, for example [piecal featuredimage=true]. The event uses the post's featured image in its popover. The linked guide also points to the developer approach for adding custom fields to popover content.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/51-show-featured-image-in-popover",
+          "title": "Show Featured Image in Popover",
+          "last_updated": "2024-09-10",
+          "sha256": "315096300d4b22e3fb147c323ddc053054941413a52eafb1f8c17f40e2f77819"
+        }
+      ]
+    },
+    "skip_popover": {
+      "title": "Open the event page or a custom URL directly",
+      "answer": "The documentation provides a developer snippet using piecal_additional_event_click_js to skip the popover and open the event page. For a custom URL field, the separate guide uses piecal_event_array_filter and click JavaScript; its sample assumes ACF. Follow the linked snippet appropriate to the desired destination. Adapting custom PHP/JavaScript to your site should be reviewed by a developer.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/29-skip-popover-on-event-click",
+          "title": "Skip Popover on Event Click",
+          "last_updated": "2025-12-18",
+          "sha256": "d00858e3222533732df118dcff882923266ae79846acebe170100d52802664e0"
+        },
+        {
+          "url": "https://docs.piecalendar.com/article/48-skip-popover-and-go-to-custom-url-field",
+          "title": "Skip Popover and Go To Custom URL Field",
+          "last_updated": "2025-07-11",
+          "sha256": "3cebacb00ca4e6294b8fa0cec3d916fc5093f6c9b2fa350db5312fa8027afab7"
+        }
+      ]
+    },
+    "frontend_submissions": {
+      "title": "Accept event submissions from site visitors",
+      "answer": "Use a capable front-end form plugin that can create WordPress posts and map submitted values to Pie Calendar's event meta fields. The tutorial demonstrates Gravity Forms with its Advanced Post Creation add-on; it also mentions Fluent Forms and WS Forms as alternatives. Map the event flag and correctly formatted date/time fields using the meta-field reference. This is a form-plugin integration, not a built-in submission form.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/7-front-end-calendar-submissions-tutorial",
+          "title": "Front End Calendar Submissions Tutorial",
+          "last_updated": "2023-06-07",
+          "sha256": "11106a9966fcc053465a0040eacbe564a484b82761c0418e257616d4f6631527"
+        },
+        {
+          "url": "https://docs.piecalendar.com/article/8-meta-fields",
+          "title": "Meta Fields",
+          "last_updated": "2025-01-02",
+          "sha256": "ce72389c6fa4b5b66993296e8ed5b913336e26e42f0495319e4d85ff01bafd7d"
+        }
+      ]
+    },
+    "csv_import": {
+      "title": "Import events from a spreadsheet or CSV",
+      "answer": "Export your spreadsheet as CSV and use an import tool that maps columns to WordPress posts and custom fields; WP All Import Pro is one documented example, not a requirement. Map the post title and Pie Calendar meta fields, including _piecal_is_event with value 1 and the date fields. Follow the meta-field reference for exact formats. Pie Calendar support does not cover third-party import plugins.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/49-import-a-csv-of-events-into-pie-calendar",
+          "title": "Import a CSV of Events Into Pie Calendar",
+          "last_updated": "2024-07-24",
+          "sha256": "5262ef92d7147e6021e9d64441770b225614755b44b17db5af5a24fc5321854f"
+        },
+        {
+          "url": "https://docs.piecalendar.com/article/8-meta-fields",
+          "title": "Meta Fields",
+          "last_updated": "2025-01-02",
+          "sha256": "ce72389c6fa4b5b66993296e8ed5b913336e26e42f0495319e4d85ff01bafd7d"
+        }
+      ]
+    },
+    "license_upgrade": {
+      "title": "Upgrade to an unlimited-site license",
+      "answer": "Sign in at https://piecalendar.com/my-account/, choose View Licenses, then View Upgrades beside your license. Select Upgrade License and complete checkout. The guide describes paying the difference to the unlimited-site license and continuing to use the existing license key. For questions about your specific purchase, eligibility, or a failed checkout, contact a human representative.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/20-upgrade-your-license",
+          "title": "Upgrade Your License",
+          "last_updated": "2023-07-10",
+          "sha256": "07d462276b710230ac2002b79a7d5490c6272fab61027332abff1bca2dc6144c"
+        }
+      ]
+    },
+    "invoice_update": {
+      "title": "Download or update an invoice",
+      "answer": "After purchasing Pro, sign in at https://piecalendar.com/my-account/ and select View Invoice. To edit the billing details or add VAT information, choose Update at the upper right, enter the details, then select Save Billing Details & Generate Invoice. You can then download the updated PDF invoice. A dispute, tax advice, or a problem with a specific charge requires human assistance.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/45-add-vat-and-billing-info-to-your-invoice",
+          "title": "Add VAT and Billing Info to Your Invoice",
+          "last_updated": "2024-05-31",
+          "sha256": "02d78eb3253ef063c566b88dd8cc2f765fba642aafdfee6a52cbd306ea336ada"
+        }
+      ]
+    },
+    "connector_ics": {
+      "title": "Display external ICS feeds",
+      "answer": "Install and configure the Pie Calendar Connector add-on to display external ICS feeds. It works with the free Pie Calendar plugin as well as Pro. In the calendar block, expand Event Sources, enable ICS, and paste the feed URL. With a shortcode, use sources=\"ics\" and supply the URL through icsurls; multiple feed URLs can be comma-separated. This imports feed events for display; it is distinct from visitors exporting a single event.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/83-how-to-use-the-pie-calendar-connector-add-on",
+          "title": "How to use the Pie Calendar Connector add-on",
+          "last_updated": "2026-02-25",
+          "sha256": "6095cd818d974afeabee6e23ffa0de6b3f7d8905672138d1028ebb235f400117"
+        },
+        {
+          "url": "https://docs.piecalendar.com/article/91-setting-up-ics-feeds-with-pie-calendar-connector-for-wordpress",
+          "title": "Setting up ICS Feeds with Pie Calendar Connector for WordPress",
+          "last_updated": "2026-02-25",
+          "sha256": "71e5370d0af39d69cc9d64e816e8a7f381ad79b6fecfa82e7e51c024f4f038c6"
+        }
+      ]
+    },
+    "connector_eventbrite": {
+      "title": "Connect and display Eventbrite events",
+      "answer": "Use the Pie Calendar Connector add-on. Create an Eventbrite API key and copy its private token. In WordPress go to Settings > Pie Calendar Connector, save the token, select your Eventbrite Organization ID, save again, and choose Synchronize Eventbrite Events. Enable Eventbrite under the block's Event Sources, or use [piecal sources=\"eventbrite\"]. Use sources=\"native, eventbrite\" to include native events too. Enter tokens in your admin settings, not in support chat.",
+      "enabled": true,
+      "threshold": 0.85,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/83-how-to-use-the-pie-calendar-connector-add-on",
+          "title": "How to use the Pie Calendar Connector add-on",
+          "last_updated": "2026-02-25",
+          "sha256": "6095cd818d974afeabee6e23ffa0de6b3f7d8905672138d1028ebb235f400117"
+        },
+        {
+          "url": "https://docs.piecalendar.com/article/90-setting-up-eventbrite-with-pie-calendar-connector-for-wordpress",
+          "title": "Setting up Eventbrite with Pie Calendar Connector for WordPress",
+          "last_updated": "2026-02-25",
+          "sha256": "fc63794b2ef77ac51c75075f7e1966645036b08a4a3cfb1dcd559ea06dece3d2"
+        }
+      ]
+    },
+    "connector_webhooks": {
+      "title": "Keep Eventbrite changes synchronized",
+      "answer": "In Eventbrite go to Account Settings > Developer Links > Webhooks and add a webhook with your site's URL followed by /wp-json/piecal-connector/v1/webhook/update. Enable event.created, event.published, event.unpublished, and event.updated. Save and test it; a successful test returns HTTP 200. Updates can take several minutes. For 400/403 responses, inspect the response body; persistent errors need human investigation.",
+      "enabled": false,
+      "threshold": 0.99,
+      "review_status": "needs_human_review",
+      "sources": [
+        {
+          "url": "https://docs.piecalendar.com/article/90-setting-up-eventbrite-with-pie-calendar-connector-for-wordpress",
+          "title": "Setting up Eventbrite with Pie Calendar Connector for WordPress",
+          "last_updated": "2026-02-25",
+          "sha256": "fc63794b2ef77ac51c75075f7e1966645036b08a4a3cfb1dcd559ea06dece3d2"
+        }
+      ]
+    },
+    "license_activation": {
+      "title": "License activation and unauthorized plugin downloads",
+      "answer": "Please contact our team at support@piecalendar.com for help with licensing related issues.",
+      "review_status": "approved_by_product_owner",
+      "response_type": "support_referral",
+      "handoff": {
+        "method": "email",
+        "email": "support@piecalendar.com",
+        "url": "mailto:support@piecalendar.com"
+      },
+      "sources": [
+        {
+          "type": "product_owner_instruction",
+          "title": "Product-owner approved licensing support response",
+          "provided_on": "2026-10-10"
+        }
+      ],
+      "enabled": true,
+      "threshold": 0.85
+    }
+  },
+  "calibration": {
+    "method": "per_label_threshold_with_0.85_floor_and_0.15_margin",
+    "data": "data/support/calibration.csv",
+    "minimum_acceptances": 2,
+    "status": "synthetic_only_not_production_validation",
+    "labels": {
+      "create_event": {
+        "threshold": 0.85,
+        "accepted": 2,
+        "observed_errors": 0
+      },
+      "display_calendar": {
+        "threshold": 0.85,
+        "accepted": 3,
+        "observed_errors": 0
+      },
+      "calendar_views": {
+        "threshold": 0.85,
+        "accepted": 2,
+        "observed_errors": 0
+      },
+      "upcoming_events": {
+        "threshold": 0.85,
+        "accepted": 3,
+        "observed_errors": 0
+      },
+      "calendar_locale": {
+        "threshold": 0.85,
+        "accepted": 3,
+        "observed_errors": 0
+      },
+      "calendar_theme": {
+        "threshold": 0.85,
+        "accepted": 3,
+        "observed_errors": 0
+      },
+      "wrap_titles": {
+        "threshold": 0.85,
+        "accepted": 3,
+        "observed_errors": 0
+      },
+      "mobile_widget": {
+        "threshold": 0.85,
+        "accepted": 3,
+        "observed_errors": 0
+      },
+      "automatic_end_dates": {
+        "threshold": 0.85,
+        "accepted": 2,
+        "observed_errors": 0
+      },
+      "recurring_events": {
+        "threshold": 0.85,
+        "accepted": 3,
+        "observed_errors": 0
+      },
+      "post_type_filter": {
+        "threshold": 0.85,
+        "accepted": 3,
+        "observed_errors": 0
+      },
+      "custom_post_type_setup": {
+        "threshold": 0.85,
+        "accepted": 2,
+        "observed_errors": 0
+      },
+      "taxonomy_filter": {
+        "threshold": 0.85,
+        "accepted": 2,
+        "observed_errors": 0
+      },
+      "builder_compatibility": {
+        "threshold": 0.85,
+        "accepted": 2,
+        "observed_errors": 0
+      },
+      "block_editor": {
+        "threshold": 0.85,
+        "accepted": 2,
+        "observed_errors": 0
+      },
+      "add_to_calendar": {
+        "threshold": 0.99,
+        "accepted": 0,
+        "enabled": false,
+        "reason": "fewer_than_two_error_free_calibration_acceptances"
+      },
+      "adaptive_timezone": {
+        "threshold": 0.85,
+        "accepted": 2,
+        "observed_errors": 0
+      },
+      "event_info": {
+        "threshold": 0.85,
+        "accepted": 2,
+        "observed_errors": 0
+      },
+      "custom_date_fields": {
+        "threshold": 0.85,
+        "accepted": 2,
+        "observed_errors": 0
+      },
+      "event_colors": {
+        "threshold": 0.85,
+        "accepted": 3,
+        "observed_errors": 0
+      },
+      "popover_image": {
+        "threshold": 0.85,
+        "accepted": 3,
+        "observed_errors": 0
+      },
+      "skip_popover": {
+        "threshold": 0.85,
+        "accepted": 2,
+        "observed_errors": 0
+      },
+      "frontend_submissions": {
+        "threshold": 0.85,
+        "accepted": 2,
+        "observed_errors": 0
+      },
+      "csv_import": {
+        "threshold": 0.85,
+        "accepted": 2,
+        "observed_errors": 0
+      },
+      "license_upgrade": {
+        "threshold": 0.85,
+        "accepted": 3,
+        "observed_errors": 0
+      },
+      "invoice_update": {
+        "threshold": 0.85,
+        "accepted": 2,
+        "observed_errors": 0
+      },
+      "connector_ics": {
+        "threshold": 0.85,
+        "accepted": 2,
+        "observed_errors": 0
+      },
+      "connector_eventbrite": {
+        "threshold": 0.85,
+        "accepted": 3,
+        "observed_errors": 0
+      },
+      "connector_webhooks": {
+        "threshold": 0.99,
+        "accepted": 0,
+        "enabled": false,
+        "reason": "fewer_than_two_error_free_calibration_acceptances"
+      },
+      "license_activation": {
+        "threshold": 0.85,
+        "accepted": 5,
+        "observed_errors": 0
+      }
+    },
+    "candidate_models": [
+      {
+        "C": 0.01,
+        "summary": {
+          "questions": 104,
+          "classifier_exact_label_accuracy": 0.9519230769230769,
+          "automatic_answers": 38,
+          "self_service_answers": 34,
+          "licensing_support_referrals": 4,
+          "accepted_answer_precision": 1.0,
+          "coverage": 0.36538461538461536,
+          "incorrect_auto_answers": 0,
+          "human_required_questions": 12,
+          "human_required_correctly_escalated": 12,
+          "source_checked_answer_equivalences": 0
+        }
+      },
+      {
+        "C": 0.1,
+        "summary": {
+          "questions": 104,
+          "classifier_exact_label_accuracy": 0.9615384615384616,
+          "automatic_answers": 71,
+          "self_service_answers": 66,
+          "licensing_support_referrals": 5,
+          "accepted_answer_precision": 1.0,
+          "coverage": 0.6826923076923077,
+          "incorrect_auto_answers": 0,
+          "human_required_questions": 12,
+          "human_required_correctly_escalated": 12,
+          "source_checked_answer_equivalences": 0
+        }
+      }
+    ],
+    "selected_C": 0.1,
+    "selection_rule": "Most calibration auto-answers with zero observed wrong answers; tie prefers smaller C"
+  }
+}
